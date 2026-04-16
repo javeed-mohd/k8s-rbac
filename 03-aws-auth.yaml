@@ -12,6 +12,14 @@ data:
       userarn: arn:aws:iam::996669628469:user/suresh
       username: suresh
     - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::996669628469:user/john
+      username: john
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::996669628469:user/rahim
+      username: rahim
+    - groups:
       - roboshop-admin
       userarn: arn:aws:iam::996669628469:user/ramesh
       username: ramesh
