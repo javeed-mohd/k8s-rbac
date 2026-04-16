@@ -5,6 +5,6 @@ metadata:
   name: roboshop-trainee
 # Permissions
 rules:
-- apiGroups: [""]         # "" indicates the core API group
+- apiGroups: [""]                     # "" indicates the core API group
   resources: ["pods"]
   verbs: ["get", "watch", "list"]     # Only read access
